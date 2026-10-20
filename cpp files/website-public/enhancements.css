@@ -1,0 +1,68 @@
+.contact-quick-links {
+  display: grid;
+  gap: 10px;
+  margin-top: 24px;
+}
+
+.contact-quick-links .button {
+  justify-content: space-between;
+  width: 100%;
+  text-align: left;
+}
+
+.contact-quick-links .contact-facebook {
+  border: 1px solid var(--green);
+  color: var(--green);
+}
+
+.question-contact-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.question-contact-actions .button {
+  min-height: 40px;
+  padding: 0 12px;
+  font-size: 10px;
+}
+
+.question-response .lesson-bullets {
+  margin: 8px 0;
+}
+
+.question-response .code-example {
+  font-size: 11px;
+}
+
+.footer-links .site-share {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--lime);
+  font: 700 10px var(--sans);
+  cursor: pointer;
+}
+
+.footer-links .site-share:hover {
+  text-decoration: underline;
+}
+
+.share-status {
+  flex-basis: 100%;
+  color: #d4dbd5;
+  font-size: 10px;
+  line-height: 1.5;
+}
+
+@media (max-width: 680px) {
+  .question-contact-actions {
+    display: grid;
+  }
+
+  .question-contact-actions .button {
+    width: 100%;
+    justify-content: space-between;
+  }
+}
